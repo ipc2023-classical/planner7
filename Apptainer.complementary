@@ -49,7 +49,7 @@ Stage: run
     PLANFILE=$3
 
     ## Call your planner.
-    ./fast-downward.py \
+    /fast-downward.py \
         --build=release64 \
         --plan-file $PLANFILE \
         $DOMAINFILE \
